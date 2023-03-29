@@ -20,19 +20,19 @@
           />
           <ul class="nav__links">
             <li>
-              <a class="nav__link">Staff picks</a>
+              <a class="nav__link" href="#page-staff">Staff picks</a>
             </li>
             <li>
-              <a class="nav__link">Events</a>
+              <a class="nav__link" href="#page-events">Events</a>
             </li>
             <li>
-              <a class="nav__link">Become a member</a>
+              <a class="nav__link" href="#page-member">Become a member</a>
             </li>
             <li>
-              <a class="nav__link">About</a>
+              <a class="nav__link" href="#page-about">About</a>
             </li>
             <li>
-              <a class="nav__link">Contacts</a>
+              <a class="nav__link" href="#contacts">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -49,7 +49,9 @@
           class="header__image"
         />
         <div class="header__footer">
-          <a class="header__link">About the library &darr;</a>
+          <a class="header__link" href="#page-about"
+            >About the library &darr;</a
+          >
           <p class="header__address">
             200 Success Avenue, The Town of Practicum
           </p>
@@ -57,7 +59,7 @@
       </header>
 
       <main class="content">
-        <section class="events">
+        <section id="page-events" class="events">
           <div class="events__content">
             <h2 class="events__heading">Upcoming events:</h2>
             <h3 class="events__title">
@@ -137,21 +139,18 @@
           </div>
         </section>
 
-        <section class="staff">
-          <!-- --------------------------------------------------------------- -->
-          <!--        Don't uncomment until the final project stage            -->
-          <!-- --------------------------------------------------------------- -->
-          <!--<h2 class="staff__title">Staff picks</h2>
+        <section id="page-staff" class="staff">
+          <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
-          <ul>
+          <ul class="staff__card">
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">Introduction to Algorithms</h3>
                 <p class="card__text">
                   The name of this book is self-explanatory; it's a proper
-                  introduction to algorithms! Introduction to Algorithms, or CLRS,
-                  in reference to the authors' last names, goes in-depth and
-                  covers a range of algorithms across several self-contained
+                  introduction to algorithms! Introduction to Algorithms, or
+                  CLRS, in reference to the authors' last names, goes in-depth
+                  and covers a range of algorithms across several self-contained
                   chapters.
                 </p>
                 <p class="card__footer">
@@ -169,8 +168,9 @@
                 <p class="card__text">
                   This is one of the best books for learning the fundamentals of
                   programming. Featured by MIT in one of their foundational
-                  programming courses, SICP is a general-purpose programming book
-                  that uses Scheme to illustrate various programming concepts.
+                  programming courses, SICP is a general-purpose programming
+                  book that uses Scheme to illustrate various programming
+                  concepts.
                 </p>
                 <p class="card__footer">
                   Harold Abelson, Gerald Jay Sussman, Julie Sussman
@@ -181,14 +181,15 @@
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">
-                  The Clean Coder: A Code of Conduct for Professional Programmers
+                  The Clean Coder: A Code of Conduct for Professional
+                  Programmers
                 </h3>
                 <p class="card__text">
                   Compiled by seasoned software engineer and author Robert C.
                   Martin (also known as Uncle Bob), this book covers the
-                  techniques and tools of true software craftsmanship. It explains
-                  how to write clean code and demonstrates how to cultivate the
-                  attitude of a skilled, professional programmer.
+                  techniques and tools of true software craftsmanship. It
+                  explains how to write clean code and demonstrates how to
+                  cultivate the attitude of a skilled, professional programmer.
                 </p>
                 <p class="card__footer">Steve McConnell</p>
               </div>
@@ -202,21 +203,18 @@
                 <p class="card__text">
                   Want to know how to write robust code irrespective of the
                   architecture behind your chosen programming language? Then
-                  consider reading Code Complete: A Practical Handbook of Software
-                  Construction. It comprehensively covers everything related to
-                  good code structure.
+                  consider reading Code Complete: A Practical Handbook of
+                  Software Construction. It comprehensively covers everything
+                  related to good code structure.
                 </p>
                 <p class="card__footer">Steve McConnell</p>
               </div>
             </li>
-          </ul>-->
+          </ul>
         </section>
 
-        <section class="membership">
-          <!-- --------------------------------------------------------------- -->
-          <!--         Don't uncomment until the final project stage           -->
-          <!-- --------------------------------------------------------------- -->
-          <!--<h2 class="membership__title">Becoming a library member is easy!</h2>
+        <section id="page-member" class="membership">
+          <h2 class="membership__title">Becoming a library member is easy!</h2>
           <ul class="membership__steps">
             <li class="step">
               <h3 class="step__title">
@@ -268,26 +266,23 @@
                 Enjoy all the awesome benefits of membership!
               </p>
             </li>
-          </ul>-->
+          </ul>
         </section>
 
-        <section class="about">
-          <!-- --------------------------------------------------------------- -->
-          <!--          Don't uncomment until the final project stage          -->
-          <!-- --------------------------------------------------------------- -->
-          <!--<h2 class="about__title">About the library</h2>
+        <section id="page-about" class="about">
+          <h2 class="about__title">About the library</h2>
           <div class="about__content">
             <p class="about__paragraph">
               Libraries are essential establishments in practically every city,
               and Practicum's library is no exception. It first opened its doors
-              way back in 2018, right as our humble town began bidding welcome to
-              its very first citizens!
+              way back in 2018, right as our humble town began bidding welcome
+              to its very first citizens!
             </p>
             <p class="about__paragraph">
-              Since its initial opening, the library has seen nearly 342 visitors
-              each month. That's almost 50% of our population! So far, most
-              citizens have enjoyed reading books and making use of our ample
-              online resources.
+              Since its initial opening, the library has seen nearly 342
+              visitors each month. That's almost 50% of our population! So far,
+              most citizens have enjoyed reading books and making use of our
+              ample online resources.
             </p>
             <p class="about__paragraph">
               The library gets its name from Joan Feynman, an American
@@ -295,13 +290,52 @@
               the American Geophysical Union.
             </p>
           </div>
-          <div class="about__circle"></div> -->
+          <div class="about__circle"></div>
         </section>
       </main>
-      <footer class="footer">
-        <!-- ----------------------------------------------------------------- -->
-        <!--          Don't uncomment until the final project stage            -->
-        <!-- ----------------------------------------------------------------- -->
+      <footer id="contacts" class="footer">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              class="footer__logo"
+              src="images/logo_white.png"
+              alt="Practicum Logo"
+            />
+          </div>
+          <div class="footer__column footer__column_content_hours">
+            <h2 class="footer__column-heading">Hours</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">Weekdays: 9am - 8pm</li>
+              <li class="footer__list-item">Weekends: 10am - 6pm</li>
+            </ul>
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <h2 class="footer__column-heading">Social Media</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__column-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="/se_project_library/images/facebook_white.svg"
+                    alt="Facebook Logo"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__column-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="images/instagram_white.svg"
+                    alt="Instagram Logo"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2023 John Rojas</p>
       </footer>
     </div>
   </body>
