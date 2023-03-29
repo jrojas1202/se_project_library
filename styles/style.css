@@ -5,7 +5,7 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0 auto;
-  font-family: Helvetica Neue, Arial, sans-serif;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
 }
 /* Displays the design for the header section */
 .header {
@@ -37,8 +37,7 @@
   list-style-type: none;
   column-gap: 20px;
   padding: 0;
-  font-size: 13px;
-  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .nav__link {
@@ -65,6 +64,7 @@
   font-size: 20px;
   line-height: 30px;
   margin-top: 32px;
+  margin-bottom: 0;
 }
 
 .header__image {
@@ -186,12 +186,10 @@
   flex-shrink: 0;
   flex-basis: 780px;
   max-width: 780px;
-  height: 580px;
   min-height: 0;
 }
 
 .events__image {
-  position: absolute;
   max-width: 100%;
 }
 
@@ -252,7 +250,7 @@
 /* Displays the design for the Staff-picks section */
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
-  padding: 60px 0 140px;
+  padding: 100px 0 140px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -283,13 +281,14 @@
   display: flex;
   position: relative;
   max-width: 760px;
-  min-height: 880px;
-  top: 68px;
+  padding-top: 68px;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 40px;
   list-style-type: none;
   padding-inline-start: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .card {
@@ -408,6 +407,10 @@
 
 .about__paragraph {
   margin: 0 0 32px;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .about__circle {
