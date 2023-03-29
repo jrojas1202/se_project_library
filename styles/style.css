@@ -1,3 +1,4 @@
+/* This section of css displays the overall page design  */
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -6,7 +7,7 @@
   margin: 0 auto;
   font-family: Helvetica Neue, Arial, sans-serif;
 }
-
+/* Displays the design for the header section */
 .header {
   height: 100vh;
   min-height: 720px;
@@ -17,7 +18,7 @@
   position: relative;
   box-sizing: border-box;
 }
-
+/* Displays the design for the nav section */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -99,10 +100,11 @@
   margin: 0;
   color: #838383;
 }
-
+/* Displays the design for the main section */
 .content {
   position: relative;
 }
+/* Displays the design for the events section */
 .events {
   padding: 100px 0 120px 80px;
   display: flex;
@@ -177,7 +179,7 @@
 .events__more:hover {
   color: #1f69c9;
 }
-
+/* Displays the design for the images in the event section */
 .events__cover {
   position: relative;
   flex-grow: 1;
@@ -247,7 +249,7 @@
   font-size: 14px;
   margin: 0;
 }
-
+/* Displays the design for the Staff-picks section */
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   padding: 60px 0 140px;
@@ -328,7 +330,7 @@
 
   margin-top: auto;
 }
-
+/* Displays the design for the membership section */
 .membership {
   padding: 100px 0 140px;
   background-color: #f2f2f2;
@@ -373,7 +375,7 @@
 .step__description {
   margin: 10px 0 0;
 }
-
+/* Displays the design for the about section */
 .about {
   display: flex;
   position: relative;
@@ -419,7 +421,7 @@
   top: -121px;
   left: -91px;
 }
-
+/* Displays the design for the footer */
 .footer {
   box-sizing: border-box;
   background-color: #1f1f1f;
@@ -481,7 +483,7 @@
   height: 16px;
   margin-right: 10px;
 }
-
+/* Displays the design for the copyright information */
 .footer__copyright {
   margin: 108px 0 0;
 }

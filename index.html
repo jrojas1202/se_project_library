@@ -1,23 +1,33 @@
+<!-- The DOCTYPE declaration specifies the HTML version and language -->
 <!DOCTYPE html>
+<!-- The <html> element contains all other elements -->
 <html lang="en">
   <head>
+    <!-- The <meta> element sets the character set and viewport -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- The <title> element sets the page title -->
     <title>Practicum Library</title>
+    <!-- The <link> element sets the favicon and style sheets -->
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
   <body>
+    <!-- The <div> element contains all the content of the page -->
     <div class="page">
+      <!-- The <header> element contains the navigation, main image, and site description -->
       <header class="header">
+        <!-- The <nav> element contains the site navigation -->
         <nav class="nav">
+          <!-- The <img> element displays the site logo -->
           <img
             src="./images/logo.png"
             alt="Practicum Library Logo"
             class="logo"
           />
+          <!-- The <ul> element contains the site navigation links -->
           <ul class="nav__links">
             <li>
               <a class="nav__link" href="#page-staff">Staff picks</a>
@@ -36,18 +46,21 @@
             </li>
           </ul>
         </nav>
+        <!-- The <h1> element displays the main title -->
         <h1 class="header__title">Welcome to the Practicum Library</h1>
+        <!-- The <p> element displays the site description -->
         <p class="header__description">
           We're pleased to open our library doors to everyone! Come and expand
           your development knowledge, or just use this lovely spot to work or
           study. This is a cool place for cool students!
         </p>
-
+        <!-- The <img> element displays the main image -->
         <img
           src="./images/inside_the_library.png"
           alt="Illustration 'Inside the library'"
           class="header__image"
         />
+        <!-- The <div> element contains the site address and link to About page -->
         <div class="header__footer">
           <a class="header__link" href="#page-about"
             >About the library &darr;</a
@@ -57,10 +70,12 @@
           </p>
         </div>
       </header>
-
+      <!-- The <main> element contains the main content of the page -->
       <main class="content">
+        <!-- The <section> element contains information about upcoming events -->
         <section id="page-events" class="events">
           <div class="events__content">
+            <!-- The <h2> element displays the events heading -->
             <h2 class="events__heading">Upcoming events:</h2>
             <h3 class="events__title">
               In honor of Joan Feynman: Women in astrophysics
@@ -88,14 +103,17 @@
               prove that this hasn't been the case since at least the 18th
               century.
             </p>
+            <!-- This <a> links the more events button for the section -->
             <a href="#" class="events__more">More events &rarr;</a>
           </div>
+          <!-- The <div> element displays the images for the event section -->
           <div class="events__cover">
             <img
               src="./images/cafe.png"
               alt="Illustration 'cafe'"
               class="events__cover events__image"
             />
+            <!-- This <div> contains information on Joan Feynman -->
             <div class="person person_name_feynman">
               <p class="person__caption">Joan Feynman</p>
               <img
@@ -104,6 +122,7 @@
                 class="person__image person__image_size_l"
               />
             </div>
+            <!-- This <div> contains information on Jill Tarter -->
             <div class="person person_name_tarter">
               <p class="person__caption">Jill Tarter</p>
               <img
@@ -112,6 +131,7 @@
                 class="person__image person__image_size_m"
               />
             </div>
+            <!-- This <div> contains information on Margaret Burbidge -->
             <div class="person person_name_burbidge">
               <p class="person__caption">Margaret Burbidge</p>
               <img
@@ -120,6 +140,7 @@
                 class="person__image person__image_size_m"
               />
             </div>
+            <!-- This <div> contains information on Annie Jump Cannon -->
             <div class="person person_name_cannon">
               <img
                 src="./images/person_cannon.png"
@@ -128,6 +149,7 @@
               />
               <p class="person__caption">Annie Jump Cannon</p>
             </div>
+            <!-- This <div> contains information on Maria Mitchell -->
             <div class="person person_name_mitchell">
               <img
                 src="./images/person_mitchell.png"
@@ -138,11 +160,13 @@
             </div>
           </div>
         </section>
-
+        <!-- The <section> block starts the next section of the body for staff picks-->
         <section id="page-staff" class="staff">
           <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
+          <!-- The <ul> element details the different staff picks -->
           <ul class="staff__cards">
+            <!-- This <li> contains information on the Introduction to Algorithms -->
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">Introduction to Algorithms</h3>
@@ -159,7 +183,7 @@
                 </p>
               </div>
             </li>
-
+            <!-- This <li> contains information on The Structure and Interpretation of Computer Programs -->
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">
@@ -177,7 +201,7 @@
                 </p>
               </div>
             </li>
-
+            <!-- This <li> contains information on The Clean Coder: A Code of Conduct for Professional Programmers -->
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">
@@ -194,7 +218,7 @@
                 <p class="card__footer">Steve McConnell</p>
               </div>
             </li>
-
+            <!-- This <li> contains information on Code Complete: a Practical Handbook of Software Construction -->
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">
@@ -212,10 +236,12 @@
             </li>
           </ul>
         </section>
-
+        <!-- The <section> contains information about the membership of the library -->
         <section id="page-member" class="membership">
+          <!-- This <h2> contains the header of the section for membership -->
           <h2 class="membership__title">Becoming a library member is easy!</h2>
           <ul class="membership__steps">
+            <!-- This <li> contains information on Step 1 -->
             <li class="step">
               <h3 class="step__title">
                 Step 1
@@ -229,6 +255,7 @@
                 Fill out the membership form online or in person.
               </p>
             </li>
+            <!-- This <li> contains information on Step 2 -->
             <li class="step">
               <h3 class="step__title">
                 Step 2
@@ -242,6 +269,7 @@
                 Come pick up your library card at the front desk.
               </p>
             </li>
+            <!-- This <li> contains information on Step 3 -->
             <li class="step">
               <h3 class="step__title">
                 Step 3
@@ -253,6 +281,7 @@
               </h3>
               <p class="step__description">Sign the back of the card.</p>
             </li>
+            <!-- This <li> contains information on Step 4 -->
             <li class="step">
               <h3 class="step__title">
                 Step 4
@@ -268,9 +297,11 @@
             </li>
           </ul>
         </section>
-
+        <!-- This <section> contains information on the library and what it is about -->
         <section id="page-about" class="about">
+          <!-- This <h2> contains the header of the section -->
           <h2 class="about__title">About the library</h2>
+          <!-- This <div> contains the content of the section-->
           <div class="about__content">
             <p class="about__paragraph">
               Libraries are essential establishments in practically every city,
@@ -290,9 +321,11 @@
               the American Geophysical Union.
             </p>
           </div>
+          <!-- This <div> displays the blue circle in the section -->
           <div class="about__circle"></div>
         </section>
       </main>
+      <!-- This <footer> contains contact information about the library and its hours -->
       <footer id="contacts" class="footer">
         <div class="footer__columns">
           <div class="footer__column">
@@ -302,6 +335,7 @@
               alt="Practicum Logo"
             />
           </div>
+          <!-- This <div> element contains information about the hours-->
           <div class="footer__column footer__column_content_hours">
             <h2 class="footer__column-heading">Hours</h2>
             <ul class="footer__list">
@@ -309,11 +343,13 @@
               <li class="footer__list-item">Weekends: 10am - 6pm</li>
             </ul>
           </div>
+          <!-- This <div> element contains information about the social networks for the library -->
           <div class="footer__column footer__column_content_social">
             <h2 class="footer__column-heading">Social Media</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
                 <a class="footer__column-link" href="#">
+                  <!-- This <img> displays the facebook image -->
                   <img
                     class="footer__social-icon"
                     src="/se_project_library/images/facebook_white.svg"
@@ -324,6 +360,7 @@
               </li>
               <li class="footer__list-item">
                 <a class="footer__column-link" href="#">
+                  <!-- This <img> displays the instagram image -->
                   <img
                     class="footer__social-icon"
                     src="images/instagram_white.svg"
@@ -335,6 +372,7 @@
             </ul>
           </div>
         </div>
+        <!-- This <p> element contains the copyright for this html-->
         <p class="footer__copyright">&copy; 2023 John Rojas</p>
       </footer>
     </div>
