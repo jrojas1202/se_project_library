@@ -28,11 +28,13 @@ The Practicum Library is a visually appealing and functional webpage designed to
 
 ## 📸 Screenshots
 
+Coming Soon...
+
 ![Homepage Screenshot](link-to-your-screenshot-image)
 
 ## 🔗 Live Demo
 
-Check out the live version of the Practicum Library [here](link-to-your-live-demo).
+Check out the live version of the Practicum Library, Coming Soon.. [here](link-to-your-live-demo).
 
 ## 🛠️ Installation & Usage
 
