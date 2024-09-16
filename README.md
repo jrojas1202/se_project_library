@@ -15,11 +15,16 @@
 
 ## 📖 Overview
 
-The Practicum Library is...
+The Practicum Library is a visually appealing and functional webpage designed to demonstrate proficiency in HTML and CSS. The project showcases a variety of web design techniques and layout strategies.
+
 
 ## 🚀 Project Features
 
-- **Semantic HTML5**: ...
+- **Semantic HTML5**: Utilized semantic HTML5 elements to improve the structure and accessibility of the webpage.
+- **Flexbox**: Applied Flexbox for responsive and flexible layout designs.
+- **Positioning**: Implemented CSS positioning properties to arrange elements precisely.
+- **Vertical Stacking with z-index**: Used `z-index` to manage the stacking order of overlapping elements.
+
 
 ## 📸 Screenshots
 
